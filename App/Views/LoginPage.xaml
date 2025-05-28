@@ -21,23 +21,27 @@
 			<!-- Correo -->
 			<Entry Placeholder="Correo electrónico"
                    Keyboard="Email"
+                   x:Name="UsernamelEntry"
                    Text="{Binding Nombre}"
                    HorizontalOptions="Center" />
 
 			<!-- Contraseña -->
 			<Entry Placeholder="Contraseña"
+                   x:Name="PasswordEntry"
                    IsPassword="True"
                    Text="{Binding Password}"
                    HorizontalOptions="Center" />
 
 			<!-- Botón Login -->
-			<Button Text="Ingresar"
+            <Button Text="Ingresar"
                     Command="{Binding LoginCommand}"
-                    HorizontalOptions="Center" />
+                    HorizontalOptions="Center" 
+                    Clicked ="OnLoginButtonClicked"/>
+                    
 
-			
 
-		</VerticalStackLayout>
+
+        </VerticalStackLayout>
 	</ScrollView>
 </ContentPage>
 

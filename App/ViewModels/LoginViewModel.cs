@@ -4,6 +4,8 @@ using System.Windows.Input;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Storage;
 using System.Threading.Tasks;
+using System.Diagnostics;
+
 
 namespace App.ViewModels;
 
@@ -41,7 +43,7 @@ public class LoginViewModel : INotifyPropertyChanged
         }
 
         // Validación simulada
-        if (Nombre == "Arana" && Password == "1234")
+        if (nombre != "" && password !="")
         {
             Preferences.Set("usuario_logeado", true);
 
@@ -59,6 +61,7 @@ public class LoginViewModel : INotifyPropertyChanged
         // Navegar a la página de registro si está registrada en AppShell
         await Shell.Current.GoToAsync("registro");
     }
+
 
     public event PropertyChangedEventHandler PropertyChanged;
     void OnPropertyChanged([CallerMemberName] string propName = "") =>
