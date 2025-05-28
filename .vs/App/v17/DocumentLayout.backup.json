@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\josue\\Downloads\\App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\josue\\downloads\\app\\app\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\josue\\downloads\\app\\app\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\josue\\downloads\\app\\app\\views\\feedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\views\\feedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\josue\\downloads\\app\\app\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\josue\\downloads\\app\\app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\josue\\downloads\\app\\app\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\josue\\downloads\\app\\app\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\josue\\downloads\\app\\app\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\josue\\downloads\\app\\app\\views\\categoriaspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\views\\categoriaspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\josue\\downloads\\app\\app\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,28 +59,111 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\josue\\Downloads\\App\\App\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "App\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\josue\\Downloads\\App\\App\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "App\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAcwE4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T17:12:47.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\josue\\Downloads\\App\\App\\Views\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "App\\Views\\LoginPage.xaml.cs",
               "ToolTip": "C:\\Users\\josue\\Downloads\\App\\App\\Views\\LoginPage.xaml.cs",
               "RelativeToolTip": "App\\Views\\LoginPage.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAACMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T06:19:50.779Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\Downloads\\App\\App\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "App\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\josue\\Downloads\\App\\App\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "App\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:12:47.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\Downloads\\App\\App\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\josue\\Downloads\\App\\App\\App.xaml.cs",
+              "RelativeToolTip": "App\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:16:07.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\josue\\Downloads\\App\\App\\AppShell.xaml",
+              "RelativeDocumentMoniker": "App\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\josue\\Downloads\\App\\App\\AppShell.xaml",
+              "RelativeToolTip": "App\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T18:04:05.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FeedPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\Downloads\\App\\App\\Views\\FeedPage.xaml.cs",
+              "RelativeDocumentMoniker": "App\\Views\\FeedPage.xaml.cs",
+              "ToolTip": "C:\\Users\\josue\\Downloads\\App\\App\\Views\\FeedPage.xaml.cs",
+              "RelativeToolTip": "App\\Views\\FeedPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:00:40.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\josue\\Downloads\\App\\App\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "App\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\josue\\Downloads\\App\\App\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "App\\Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T18:23:12.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriasPage.xaml",
+              "DocumentMoniker": "C:\\Users\\josue\\Downloads\\App\\App\\Views\\CategoriasPage.xaml",
+              "RelativeDocumentMoniker": "App\\Views\\CategoriasPage.xaml",
+              "ToolTip": "C:\\Users\\josue\\Downloads\\App\\App\\Views\\CategoriasPage.xaml",
+              "RelativeToolTip": "App\\Views\\CategoriasPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T17:58:47.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\Downloads\\App\\App\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "App\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\josue\\Downloads\\App\\App\\AppShell.xaml.cs",
+              "RelativeToolTip": "App\\AppShell.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:55:18.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\josue\\Downloads\\App\\App\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "App\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\josue\\Downloads\\App\\App\\MainPage.xaml.cs",
+              "RelativeToolTip": "App\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:55:05.316Z"
             }
           ]
         }

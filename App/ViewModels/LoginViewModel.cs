@@ -70,12 +70,12 @@ public class LoginViewModel : INotifyPropertyChanged
             {
                 // Manejar el éxito del login
                 Preferences.Set("usuario_logeado", true);
-                await Shell.Current.GoToAsync("//feed");
+                Application.Current.MainPage = new AppShell();
             }
             else
             {
                 // Manejar el error del login
-                await Application.Current.MainPage.DisplayAlert("Error", "Login fallido. Verifica tus credenciales.", "OK");
+                //await Application.Current.MainPage.DisplayAlert("Error", "Login fallido. Verifica tus credenciales.", "OK");
             }
         }
         catch (Exception ex)

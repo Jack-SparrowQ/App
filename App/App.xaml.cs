@@ -9,6 +9,6 @@ public partial class App : Application
         InitializeComponent();
 
         // El MainPage será el Shell siempre
-        MainPage = new AppShell();
+        MainPage = new NavigationPage(new Views.LoginPage());
     }
 }

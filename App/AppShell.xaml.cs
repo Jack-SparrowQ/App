@@ -54,6 +54,3 @@ public partial class AppShell : Shell
         await Shell.Current.GoToAsync("//login");
     }
 }
-
-
-
