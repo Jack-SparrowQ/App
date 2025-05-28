@@ -43,6 +43,7 @@ public class LoginViewModel : INotifyPropertyChanged
         }
 
         // Validación simulada
+        /*
         if (nombre != "" && password !="")
         {
             Preferences.Set("usuario_logeado", true);
@@ -54,7 +55,35 @@ public class LoginViewModel : INotifyPropertyChanged
         {
             await Application.Current.MainPage.DisplayAlert("Error", "Usuario o contraseña incorrectos.", "OK");
         }
+        */
+        var client = new HttpClient();
+        var json = @"{
+                ""username"": """ + Nombre + @""",
+                ""password"": """ + Password + @"""
+            }";
+        var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
+        try
+        {
+            var response = await client.PostAsync("http://serveo.net:8081/login", content);
+            string responseBody = await response.Content.ReadAsStringAsync();
+            if (response.IsSuccessStatusCode)
+            {
+                // Manejar el éxito del login
+                Preferences.Set("usuario_logeado", true);
+                await Shell.Current.GoToAsync("//feed");
+            }
+            else
+            {
+                // Manejar el error del login
+                await Application.Current.MainPage.DisplayAlert("Error", "Login fallido. Verifica tus credenciales.", "OK");
+            }
+        }
+        catch (Exception ex)
+        {
+            await Application.Current.MainPage.DisplayAlert("Error", $"Ocurrió un error: {ex.Message}", "OK");
+        }
     }
+        
 
     private async Task Register()
     {

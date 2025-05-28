@@ -1,5 +1,6 @@
 ﻿using App.ViewModels;
 using System.Text;
+using System.Net.Http;
 
 namespace App.Views;
 
@@ -32,7 +33,7 @@ public partial class LoginPage : ContentPage
             else
             {
                 // Manejar el error del login
-                await DisplayAlert("Error", "Login fallido", "OK");
+               // await DisplayAlert("Error", "Login fallido", "OK");
             }
         }
         catch (Exception ex)
