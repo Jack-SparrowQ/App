@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="App.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:App.Views">
+
+    <ShellContent Route="login" ContentTemplate="{DataTemplate views:LoginPage}" />
+
+    <!-- Feed principal -->
+    <FlyoutItem Title="TecPlace" Route="feed">
+        <ShellContent Title="Inicio"
+                      ContentTemplate="{DataTemplate views:FeedPage}" />
+        
+    </FlyoutItem>
+    <!-- Separador visual -->
+    <MenuItem Text="──────────────" IsEnabled="False" />
+
+    <!-- Otras páginas -->
+    <ShellContent Title="Perfil"
+                  Route="perfil"
+                  ContentTemplate="{DataTemplate views:PerfilPage}" />
+    <!-- Separador visual -->
+    <MenuItem Text="──────────────" IsEnabled="False" />
+
+    <!-- Categorías como ítems del menú -->
+    <MenuItem Text="Comida"
+              Clicked="OnCategoriaClicked"
+              CommandParameter="Comida" />
+    <MenuItem Text="Servicio"
+              Clicked="OnCategoriaClicked"
+              CommandParameter="Servicio" />
+    <MenuItem Text="Producto"
+              Clicked="OnCategoriaClicked"
+              CommandParameter="Producto" />
+    <MenuItem Text="Todos"
+              Clicked="OnCategoriaClicked"
+              CommandParameter="Todos" />
+
+    <!-- Separador visual -->
+    <MenuItem Text="──────────────" IsEnabled="False" />
+
+    <!-- Anuncios (como ítem de menú) -->
+    <MenuItem Text="Anuncios disponibles"
+              Clicked="OnVerAnunciosClicked" />
+    
+    <!-- Separador visual -->
+    <MenuItem Text="──────────────" IsEnabled="False" />
+
+    <MenuItem Text="Cerrar sesión"
+              Clicked="OnCerrarSesionClicked" />
+
+</Shell>
+
+

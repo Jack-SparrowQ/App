@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:App.ViewModels"
+             x:Class="App.Views.AnunciosPage"
+             Title="Anuncios">
+
+    <ContentPage.BindingContext>
+        <vm:FeedViewModel />
+        <!-- O un ViewModel separado si prefieres -->
+    </ContentPage.BindingContext>
+
+    <ScrollView Padding="10">
+        <StackLayout>
+            <Label Text="Anuncios" FontAttributes="Bold" FontSize="18"/>
+            <CollectionView ItemsSource="{Binding Anuncios}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="Gray" Padding="10" CornerRadius="10">
+                            <StackLayout>
+                                <Label Text="{Binding Titulo}" FontAttributes="Bold" FontSize="14"/>
+                                <Label Text="{Binding Contenido}" FontSize="12"/>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
+

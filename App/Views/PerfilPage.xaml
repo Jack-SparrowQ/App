@@ -1,0 +1,50 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:App.ViewModels"
+             x:Class="App.Views.PerfilPage"
+             Title="Mi Perfil">
+
+    <ContentPage.BindingContext>
+        <vm:PerfilViewModel />
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+            <!-- Imagen de perfil y selección -->
+            <StackLayout Orientation="Horizontal" Spacing="15">
+                <Image Source="{Binding Usuario.FotoUrl}" WidthRequest="80" HeightRequest="80" Aspect="AspectFill" />
+                <StackLayout>
+                    <Button Text="Cambiar Foto" Command="{Binding SeleccionarFotoCommand}" />
+                </StackLayout>
+            </StackLayout>
+
+            <!-- Datos del usuario -->
+            <Entry Text="{Binding Usuario.Nombre}" Placeholder="Nombre" />
+            <Entry Text="{Binding Usuario.Correo}" Placeholder="Correo" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="¿Eres vendedor?" VerticalOptions="Center"/>
+                <Switch IsToggled="{Binding Usuario.EsVendedor}" />
+            </StackLayout>
+            <Button Text="Guardar Cambios" Command="{Binding GuardarCommand}" />
+
+            <!-- Mis publicaciones -->
+            <Label Text="Mis Publicaciones" FontAttributes="Bold" FontSize="18" />
+            <CollectionView ItemsSource="{Binding MisPublicaciones}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="LightGray" CornerRadius="10" Padding="10" Margin="0,5">
+                            <StackLayout>
+                                <Image Source="{Binding ImagenUrl}" HeightRequest="100"/>
+                                <Label Text="{Binding Titulo}" FontAttributes="Bold"/>
+                                <Label Text="{Binding Precio, StringFormat='${0:F2}'}"/>
+                                <Label Text="{Binding Calificacion, StringFormat='⭐ {0:F1}'}"/>
+                                <Button Text="Eliminar" Command="{Binding BindingContext.EliminarPublicacionCommand, Source={x:Reference Name=PerfilPage}}" CommandParameter="{Binding .}" TextColor="Red"/>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
+

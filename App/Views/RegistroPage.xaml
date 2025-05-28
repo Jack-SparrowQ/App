@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:App.ViewModels"
+             x:Class="App.Views.RegistroPage">
+
+    <ContentPage.BindingContext>
+		<vm:RegistroViewModel />
+	</ContentPage.BindingContext>
+
+	<ScrollView>
+		<VerticalStackLayout Padding="0" Spacing="25" VerticalOptions="Center" HorizontalOptions="Center">
+
+			<!-- Logo arriba -->
+			<Image Source="logo.png"
+                   HeightRequest="150"
+                   WidthRequest="150"
+                   HorizontalOptions="Center" />
+
+			<Entry Placeholder="Correo electrónico" Keyboard="Email" Text="{Binding Correo}" />
+			<Entry Placeholder="Nombre completo" Text="{Binding Nombre}" />
+			<Entry Placeholder="Edad" Keyboard="Numeric" Text="{Binding Edad}" />
+			<Entry Placeholder="Número telefónico" Keyboard="Telephone" Text="{Binding Telefono}" />
+			<Entry Placeholder="Contraseña" IsPassword="True" Text="{Binding Password}" />
+			<Entry Placeholder="Confirmar contraseña" IsPassword="True" Text="{Binding ConfirmarPassword}" />
+
+			<Button Text="Registrar" Command="{Binding RegistrarCommand}" />
+
+		</VerticalStackLayout>
+	</ScrollView>
+</ContentPage>
+
+

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:App.ViewModels"
+             x:Class="App.Views.FeedPage"
+             Title="TecPlace">
+
+    <ContentPage.BindingContext>
+        <vm:FeedViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid RowDefinitions="Auto,*">
+
+        <!-- Barra superior -->
+        <Grid Grid.Row="0" Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Source="logo.png" HeightRequest="40"/>
+            <SearchBar Grid.Column="1" Placeholder="Buscar..." Text="{Binding Busqueda}" />
+            <Image Grid.Column="2" Source="perfil.png" HeightRequest="40"/>
+        </Grid>
+
+        <!-- Publicaciones a pantalla completa -->
+        <CollectionView Grid.Row="1"
+                        ItemsSource="{Binding Publicaciones}" 
+                        SelectionMode="Single" 
+                        SelectionChanged="OnSeleccionPublicacion">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BorderColor="LightGray" Margin="10" CornerRadius="15">
+                        <StackLayout Padding="5">
+                            <Image Source="{Binding ImagenUrl}" HeightRequest="100"/>
+                            <Label Text="{Binding Titulo}" FontAttributes="Bold"/>
+                            <Label Text="{Binding Precio, StringFormat='${0:F2}'}"/>
+                            <Label Text="{Binding Calificacion, StringFormat='⭐ {0:F1}'}"/>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </Grid>
+</ContentPage>
+
+
+
+
