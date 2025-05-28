@@ -1,0 +1,276 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\app\\app\\app\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\app\\app\\app\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\app\\app\\app\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\app\\app\\app\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\app\\app\\app\\views\\feedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\views\\feedpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\app\\app\\app\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\app\\app\\app\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\app\\app\\app\\views\\feedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\views\\feedpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\app\\app\\app\\viewmodels\\registroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\viewmodels\\registroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\app\\app\\app\\views\\registropage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\views\\registropage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\app\\app\\app\\viewmodels\\feedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\viewmodels\\feedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\app\\app\\app\\app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\app\\app\\app\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\app\\app\\app\\views\\registropage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\views\\registropage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\app\\app\\app\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|c:\\users\\carlo\\onedrive\\documentos\\homeworks\\topicsadvance\\app\\app\\app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965DD15E-9E2F-4EC0-9D30-D9AD5DC80BA0}|App\\App.csproj|solutionrelative:app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "App\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\Models\\Usuario.cs",
+              "RelativeToolTip": "App\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T00:33:29.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FeedPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\Views\\FeedPage.xaml.cs",
+              "RelativeDocumentMoniker": "App\\Views\\FeedPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\Views\\FeedPage.xaml.cs",
+              "RelativeToolTip": "App\\Views\\FeedPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T00:22:39.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "App\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "App\\Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-26T08:40:22.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FeedPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\Views\\FeedPage.xaml",
+              "RelativeDocumentMoniker": "App\\Views\\FeedPage.xaml",
+              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\Views\\FeedPage.xaml",
+              "RelativeToolTip": "App\\Views\\FeedPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-26T21:50:55.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.csproj",
+              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\App.csproj",
+              "RelativeDocumentMoniker": "App\\App.csproj",
+              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\App.csproj",
+              "RelativeToolTip": "App\\App.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-26T21:41:15.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "App\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "App\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T08:54:10.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "App\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "App\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T08:53:54.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegistroPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\Views\\RegistroPage.xaml.cs",
+              "RelativeDocumentMoniker": "App\\Views\\RegistroPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\Views\\RegistroPage.xaml.cs",
+              "RelativeToolTip": "App\\Views\\RegistroPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T08:55:16.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegistroViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\ViewModels\\RegistroViewModel.cs",
+              "RelativeDocumentMoniker": "App\\ViewModels\\RegistroViewModel.cs",
+              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\ViewModels\\RegistroViewModel.cs",
+              "RelativeToolTip": "App\\ViewModels\\RegistroViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T08:27:47.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\AppShell.xaml",
+              "RelativeDocumentMoniker": "App\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\AppShell.xaml",
+              "RelativeToolTip": "App\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-26T08:51:20.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\MainPage.xaml",
+              "RelativeDocumentMoniker": "App\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\MainPage.xaml",
+              "RelativeToolTip": "App\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T00:25:45.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FeedViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\ViewModels\\FeedViewModel.cs",
+              "RelativeDocumentMoniker": "App\\ViewModels\\FeedViewModel.cs",
+              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\ViewModels\\FeedViewModel.cs",
+              "RelativeToolTip": "App\\ViewModels\\FeedViewModel.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T21:50:41.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "App\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\AppShell.xaml.cs",
+              "RelativeToolTip": "App\\AppShell.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T08:52:05.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegistroPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\Views\\RegistroPage.xaml",
+              "RelativeDocumentMoniker": "App\\Views\\RegistroPage.xaml",
+              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\Views\\RegistroPage.xaml",
+              "RelativeToolTip": "App\\Views\\RegistroPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-26T09:13:20.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\App.xaml.cs",
+              "RelativeToolTip": "App\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T08:32:14.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\App.xaml",
+              "RelativeDocumentMoniker": "App\\App.xaml",
+              "ToolTip": "C:\\Users\\Carlo\\OneDrive\\Documentos\\Homeworks\\TopicsAdvance\\App\\App\\App\\App.xaml",
+              "RelativeToolTip": "App\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-26T09:01:42.986Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.Views.CategoriasPage"
+             Title="Categorías">
+
+	<ScrollView Padding="10">
+		<StackLayout>
+			<Label Text="Filtros" FontAttributes="Bold" FontSize="18" Margin="0,0,0,10"/>
+			<Button Text="Todos" Clicked="OnCategoriaClicked" CommandParameter="Todos" Margin="0,5"/>
+			<Button Text="Comida" Clicked="OnCategoriaClicked" CommandParameter="Comida" Margin="0,5"/>
+			<Button Text="Servicio" Clicked="OnCategoriaClicked" CommandParameter="Servicio" Margin="0,5"/>
+			<Button Text="Producto" Clicked="OnCategoriaClicked" CommandParameter="Producto" Margin="0,5"/>
+		</StackLayout>
+	</ScrollView>
+</ContentPage>
+
+

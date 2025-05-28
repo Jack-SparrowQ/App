@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:App.ViewModels"
+             x:Class="App.Views.DetallePublicacionPage"
+             Title="Detalle">
+    <ContentPage.BindingContext>
+        <vm:DetallePublicacionViewModel />
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+            <Image Source="{Binding Publicacion.ImagenUrl}" HeightRequest="200" Aspect="AspectFill"/>
+            <Label Text="{Binding Publicacion.Titulo}" FontSize="24" FontAttributes="Bold" />
+            <Label Text="{Binding Publicacion.Categoria}" FontAttributes="Italic" TextColor="Gray"/>
+            <Label Text="{Binding Publicacion.Precio, StringFormat='Precio: ${0:F2}'}"/>
+
+            <Label Text="Descripción" FontAttributes="Bold"/>
+            <Label Text="{Binding Publicacion.Descripcion}" FontSize="14"/>
+
+            <Label Text="Reseñas" FontAttributes="Bold" />
+
+            <CollectionView ItemsSource="{Binding Reseñas}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="LightGray" Padding="5" CornerRadius="5" Margin="0,5">
+                            <Label Text="{Binding .}" FontSize="14"/>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Entry Placeholder="Escribe una reseña..." Text="{Binding NuevaReseña}" HorizontalOptions="FillAndExpand"/>
+                <Button Text="Agregar" Command="{Binding AgregarReseñaCommand}" />
+            </StackLayout>
+
+
+            <Button Text="Contactar al vendedor" 
+                BackgroundColor="DodgerBlue" 
+                TextColor="White" 
+                CornerRadius="10"
+                Clicked="OnContactarVendedorClicked"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
+
